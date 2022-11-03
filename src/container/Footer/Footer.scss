@@ -27,7 +27,7 @@
     padding: 1rem;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #fef4f5;
+    background-color: rgba(#247af2, .6);
 
     transition: all 0.3s ease-in-out;
 
@@ -53,6 +53,10 @@
     }
     @media screen and (max-width: 300px) {
         min-width: 200px;
+
+        img {
+          display: none;
+        }
     }
   }
 

@@ -69,6 +69,14 @@
         flex-direction: column;
         margin-top: 3rem;
         background-color: var(--secondary-color);
+
+        @media screen and (max-width: 250px) {
+           padding: .8rem;
+
+           p {
+            font-weight: 500;
+        }
+        }
         
 
         p {
@@ -95,6 +103,7 @@
         align-items: flex-start;
     }
     @media screen and (max-width: 350px) {
+
         .badge-cmp {
             width: 80%;
 
@@ -107,6 +116,10 @@
             }
         }
     }
+
+    @media screen and (max-width: 250px) {
+        align-items: center;
+     }
 }
 
 .app__header-circles {
@@ -210,6 +223,30 @@
         // div {
         //     margin: 1rem;
         // }
+    }
+
+    @media screen and (max-width: 450px) {
+        div:nth-child(1) {
+            margin-left: 0;
+            width: 50px;
+            height: 50px;
+        }
+        div:nth-child(2) {
+            margin: 0;
+            width: 60px;
+            height: 60px;
+        }
+        div:nth-child(3) {
+            margin: 0;
+            width: 80px;
+            height: 80px;
+        }
+        div:nth-child(4) {
+            margin: 0;
+            margin-left: 0;
+            width: 100px;
+            height: 100px;
+        }
     }
 }
 
